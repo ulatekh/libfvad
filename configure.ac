@@ -22,7 +22,7 @@ _AC_C_STD_TRY(
     [AC_MSG_ERROR([compiler does not support C11])]
 )
 
-LT_INIT([disable-static pic-only])
+LT_INIT([win32-dll disable-static pic-only])
 
 # optional examples, requires libsndfile
 AC_ARG_ENABLE([examples],

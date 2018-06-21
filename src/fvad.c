@@ -9,6 +9,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
+#define EXPORT_FVAD
 #include "../include/fvad.h"
 
 #include <stdlib.h>
